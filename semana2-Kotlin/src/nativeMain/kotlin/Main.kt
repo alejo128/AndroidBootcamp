@@ -7,19 +7,18 @@ fun main() {
         val nroHoras = readln().toInt()
         var result: Int = 0
 
-        val i = if (x == 1) {
-            "Gerente"
-        } else if (x == 2) {
-            "Operador"
-        } else {
-            "Contador"
+        val i = when (x) {
+            1 -> "Gerente"
+            2 -> "Operador"
+            3 -> "Contador"
+            else -> {""}
         }
         when (x) {
             1 -> result = nroHoras * 200
             2 -> result = nroHoras * 10
             3 -> result = nroHoras * 50
         }
-        println("El puesto seleccionado fue $i con un total trabajado de $nroHoras horas para un sueldo total de $result")
+        println("El puesto seleccionado fue $i con un total trabajado de $nroHoras horas para un sueldo de $result dolares")
     } else {
         println("la opcion seleccionada no existe")
     }
