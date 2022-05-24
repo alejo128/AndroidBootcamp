@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Android-bootcamp</string>
+    <string name="hello_message">Welcome to this App!</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="olvideContraseña">
+        <a href="#">¿Olvidaste la contraseña?</a>
+    </string>
+    <string name="botonLogin">Login</string>
+    <string name="mensajeLogin">Ó podes ingresar con</string>
+    <string name="registrate">
+        ¿No tenes cuenta? <a href="RegisterActivity">Regístrate</a>
+    </string>
+    <string name="invitado">
+        <a href="#">Continuar como invitado</a>
+    </string>
+    <string name="crearCuenta">Crear una cuenta</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Correo electronico</string>
+    <string name="mensajeContraseña">La contraseña debe contener 8 caracteres</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="buscar">Buscar IMDb</string>
+    <string name="applelogo">Apple login</string>
+    <string name="facebooklogo">Facebook login</string>
+    <string name="googlelogo">Google login</string>
+    <string name="botonRegreso">Boton de regreso</string>
+    <string name="LogoIMDb">logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
